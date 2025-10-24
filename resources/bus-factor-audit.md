@@ -29,7 +29,7 @@ Don't just count who *could* theoretically do something. Count who *actually kno
 
 **Questions to ask:**
 - Could someone else explain why we built it this way?
-- Is the "why" documented, or just the "what"?
+- Is the 'why' documented, or just the 'what'?
 - Are there parts of the code only one person has touched in the last year?
 
 ### Infrastructure and deployment
@@ -49,6 +49,7 @@ Don't just count who *could* theoretically do something. Count who *actually kno
 - Could we deploy in an emergency with our lead person unavailable?
 - Is the deployment process documented well enough for someone to follow it?
 - Do we have the credentials we'd need if our infrastructure person disappeared?
+- Do we know what all the domains and sub-domains we own are used for?
 
 ### Development operations
 
@@ -66,6 +67,8 @@ Don't just count who *could* theoretically do something. Count who *actually kno
 - Is our release process documented enough for someone new to follow?
 - Do we have backup access to all the services we depend on?
 - What would happen if our CI/CD suddenly stopped working?
+- Are we using tokens tied to an individual in our workflows, rather than a bot account?
+- Are there repositories or resources where only a single person has access?
 
 ## Governance and decision-making
 
