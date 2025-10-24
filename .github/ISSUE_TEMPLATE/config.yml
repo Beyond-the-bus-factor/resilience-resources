@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/beyond-the-bus-factor/resilience-resources/discussions
+    about: For questions, sharing stories, or general discussion
+  - name: Session materials
+    url: https://github.com/Beyond-the-bus-factor/resilience-resources/blob/main/sessions
+    about: Workshop guides from sessions covering the bus factor
