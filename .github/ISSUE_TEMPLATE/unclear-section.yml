@@ -1,0 +1,53 @@
+name: Report unclear section
+description: Let us know what's confusing, poorly explained, or hard to use
+title: "[Unclear] "
+labels: ["documentation", "clarity"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us make these resources clearer and more useful.
+
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Which resource is unclear?
+      options:
+        - Legacy checklist
+        - Bus factor audit
+        - Succession planning guide
+        - Scenario cards
+        - SESSION.md (workshop guide)
+        - README or other docs
+    validations:
+      required: true
+
+  - type: textarea
+    id: unclear-part
+    attributes:
+      label: What's unclear?
+      description: Quote the specific section or describe what's confusing
+      placeholder: |
+        Copy/paste the specific text that's unclear, or describe which section is the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: confusion
+    attributes:
+      label: Why is it unclear?
+      description: What's confusing about it? What were you trying to do when you got stuck?
+      placeholder: |
+        Help us understand what's not working. Too vague? Too technical? Missing context? Wrong assumptions?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: How could it be clearer?
+      description: If you have ideas for better wording or structure, share them
+      placeholder: |
+        Optional - but if you know how to make it clearer, tell us!
+    validations:
+      required: false
