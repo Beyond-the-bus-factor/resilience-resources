@@ -1,0 +1,62 @@
+name: Share a real-world scenario
+description: Share your experience with a transition, departure, or crisis that others can learn from
+title: "[Scenario] "
+labels: ["real-world-experience", "community-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Your hard-won experience helps others prepare. You can anonymise details if needed.
+
+  - type: input
+    id: title
+    attributes:
+      label: Give this scenario a title
+      description: Short, descriptive title for this situation
+      placeholder: "Example: Lead maintainer sudden illness during security crisis"
+    validations:
+      required: true
+
+  - type: textarea
+    id: situation
+    attributes:
+      label: What happened?
+      description: Describe the situation - what was the crisis or transition?
+      placeholder: |
+        Set the scene. What was the bus factor situation? What triggered the crisis? 
+        You can anonymise projects and people.
+    validations:
+      required: true
+
+  - type: textarea
+    id: response
+    attributes:
+      label: How did you respond?
+      description: What did you actually do? What worked? What didn't?
+      placeholder: |
+        Walk through the response - first 24 hours, first week, longer term.
+        Be honest about what was messy or difficult.
+    validations:
+      required: true
+
+  - type: textarea
+    id: lessons
+    attributes:
+      label: What did you learn?
+      description: What would you do differently? What advice would you give others?
+      placeholder: |
+        The hard-won lessons from this experience.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: use-as-card
+    attributes:
+      label: Should this become a scenario card?
+      description: Would this make a good workshop exercise for others?
+      options:
+        - "Yes - this would make a good workshop scenario"
+        - "No - just sharing for context"
+        - "Not sure"
+    validations:
+      required: false
