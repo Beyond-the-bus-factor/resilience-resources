@@ -1,0 +1,58 @@
+name: Propose a new resource
+description: Suggest a new guide, checklist, or template that's missing from the toolkit
+title: "[New Resource] "
+labels: ["new-resource", "community-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What's missing from the resilience toolkit? Help us identify gaps.
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: What resource is missing?
+      description: Give it a clear, descriptive name
+      placeholder: "Example: Maintainer offboarding checklist"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Why do we need this resource? What situation does it address?
+      placeholder: |
+        Explain the gap. What challenge are people facing that this resource would help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: What should it include?
+      description: Outline the key sections or elements this resource needs
+      placeholder: |
+        Rough outline is fine. Main topics, key questions, structure ideas.
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience with this
+      description: Have you dealt with this situation? What did you learn?
+      placeholder: |
+        Share context from your experience if relevant.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Can you help create this?
+      options:
+        - label: I can draft this resource
+        - label: I can review and provide feedback
+        - label: I can share real-world examples
+        - label: I'm just identifying the gap for others to work on
