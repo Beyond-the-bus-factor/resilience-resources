@@ -1,0 +1,52 @@
+name: Improve an existing resource
+description: Suggest improvements to the legacy checklist, bus factor audit, succession guide, or scenario cards
+title: "[Improvement] "
+labels: ["enhancement", "community-contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make these resources better! Your real-world experience matters.
+
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Which resource needs improvement?
+      options:
+        - Legacy checklist
+        - Bus factor audit
+        - Succession planning guide
+        - Scenario cards
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What should be improved?
+      description: Be specific about what's missing, unclear, or could be better
+      placeholder: |
+        Example: The legacy checklist doesn't mention social media account access, which caused problems when our community manager left suddenly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Why does this matter?
+      description: Share the experience or reasoning behind this suggestion
+      placeholder: |
+        Tell us why this matters based on your experience. What went wrong? What could have gone better?
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: If you have specific wording or structure in mind, share it here
+      placeholder: |
+        You can write the actual text you'd add, or just describe what should be included.
+    validations:
+      required: false
