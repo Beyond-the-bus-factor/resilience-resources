@@ -192,8 +192,6 @@ There have been several attempts to develop tooling to calculate a bus factor sc
 - Do we have admin access distributed across multiple people?
 - What would happen if we lost access to our primary communication channel?
 
-
-
 ## What your audit tells you
 
 ### Count your critical risks
@@ -206,7 +204,7 @@ How many areas are marked critical (red)? These are your immediate emergencies. 
 - **Access concentration:** Does one person hold all the credentials and admin rights?
 - **Relationship concentration:** Are all external relationships owned by one person?
 
-### Identify your "key person risk"
+### Identify your 'key person risk'
 
 Is there one person whose departure would create multiple crises? That person is your bus factor problem. They may not realise how dependent the project is on them.
 
@@ -218,7 +216,7 @@ Don't panic. Every project has vulnerabilities. The goal isn't perfection - it's
 
 1. **Address one critical risk** - Pick your scariest red item and get one more person trained up
 2. **Document one area** - Take something that lives in one person's head and write it down
-3. **Share one set of credentials** - Use a password manager to give access to at least one more trusted person
+3. **Share one set of credentials** - Use a password manager to give access to at least one more trusted person, even if it's a lawyer it's better than only being in the hands of a single person!
 
 ### Short-term actions (next 90 days)
 
