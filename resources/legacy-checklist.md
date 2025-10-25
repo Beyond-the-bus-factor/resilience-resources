@@ -13,30 +13,30 @@ Work through each section. For every item, you need:
 2. **Where to find it** - Documented location, accessible to those who need it
 3. **What to do with it** - Clear instructions for the person who takes over
 
-Don't just tick boxes. Actually set these things up and test that others can access them.
+Don't only tick boxes. Actually set these things up and test that others _can_ access them.
 
 ## Critical access
 
 ### Passwords and credentials
 
-- [ ] Password manager administrative access - at least one other person
+- [ ] Password manager administrative access - at least one other person as an org-wide admin with access to all passwords
 - [ ] Password manager account recovery process tested
-- [ ] Two-factor authentication backup codes stored securely
+- [ ] Two-factor authentication backup codes stored securely and documented
 - [ ] Hardware security keys - at least one other person knows where they are, ideally have a backup which is solely for use in emergencies, which is stored safely (e.g. in a fireproof container in a safe)
 - [ ] Personal email account access plan (recovery email, trusted contacts, legacy contacts)
 
 **GitHub/GitLab/code hosting:**
 - [ ] Organisation owner access held by at least three people
-- [ ] [Legacy contact](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/maintaining-ownership-continuity-of-your-personal-accounts-repositories) set up on GitHub personal accounts (GitLab does not currently have any support but it's being discussed [here](https://gitlab.com/gitlab-org/gitlab/-/issues/26660))
-- [ ] Instructions for next of kin / legacy contact regarding transferring repositories if needed
-- [ ] Documentation of what repositories exist and their purpose
+- [ ] [Legacy contact](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/maintaining-ownership-continuity-of-your-personal-accounts-repositories) set up on GitHub personal accounts (GitLab does not currently have any support but it's being discussed [here](https://gitlab.com/gitlab-org/gitlab/-/issues/26660)) - read more in [setting up legacy contacts](set-up-legacy-contacts.md)
+- [ ] Instructions documented for next of kin / legacy contact regarding transferring repositories if needed
+- [ ] Documentation of what repositories exist, their purpose, and who has access to them
 
 **Infrastructure and hosting:**
 - [ ] Server access (SSH keys, root passwords) stored securely and accessible to more than one person
 - [ ] Cloud provider accounts (AWS, Azure, GCP, DigitalOcean, etc.) have more than one administrative user
 - [ ] Domain registrar accounts have more than one administrator
 - [ ] DNS management access has more than one administrator
-- [ ] SSL certificate management notifications go to a group instead of an individual
+- [ ] SSL certificate management notifications go to a group instead of an individual 
 - [ ] CDN and hosting services have more than one person with root/admin level access to the servers and to the hosting provider's control panel/support system
 - [ ] Monitoring and alerting services have more than one administrator and alert to a group instead of an individual
 
@@ -49,7 +49,7 @@ Don't just tick boxes. Actually set these things up and test that others can acc
 
 **Communication platforms:**
 - [ ] Email hosting administration has more than one administrative user and a clear policy on legacy contacts
-- [ ] Mailing list management has more than one administrative user and documented information on where it's managed, payment frequencies, and any integrations are clearly documented including which user accounts are connected to any tokens used
+- [ ] Mailing list management has more than one administrative user and documented information on where it's managed, payment frequencies, and any integrations are fully documented including which user accounts are connected to any tokens used
 - [ ] Slack/Discord/chat platform administration has more than one administrative user
 - [ ] Social media account is delegated across more than one person and legacy contacts are set up for personal accounts
 - [ ] Website CMS administration has more than one administrative user and documentation on how to access both the application and the hosting provider, plus any associated configurations for tools like Cloudflare.
@@ -176,14 +176,14 @@ List of all places that need notification, in priority order:
 ### Trusted contacts
 
 - [ ] At least two people who know about this checklist
-- [ ] They have access to the master document with all the details
+- [ ] They have access to the core document with all the details
 - [ ] They know how to verify a real emergency vs. a false alarm
 - [ ] You've tested the process (e.g., told them you'll be unreachable for a week)
 - [ ] They have each other's contact details
 
-### The master document
+### The core document
 
-This checklist is the framework. You need a private master document with the actual details:
+This checklist is the framework. You need a private core document with the actual details:
 
 - [ ] Created and stored securely (encrypted, access-controlled)
 - [ ] At least two trusted people know how to access it
@@ -193,17 +193,17 @@ This checklist is the framework. You need a private master document with the act
 
 ## Testing your preparation
 
-Don't just fill this out and forget it. Test it:
+Don't fill this out and forget it. Test it:
 
 - [ ] Take a week completely off and unreachable - does everything keep running?
 - [ ] Have someone else deploy a release using only your documentation
-- [ ] Ask your trusted contacts to access your master document - can they actually do it?
+- [ ] Ask your trusted contacts to access your core document - can they actually do it?
 - [ ] Review and update this checklist every six months
 - [ ] When things change (new services, new people), update immediately
 
 ## What this checklist won't do
 
-This checklist won't make your absence easy. It won't eliminate the grief or the disruption. It won't replace the knowledge in your head or the relationships you've built.
+This checklist won't make your absence less challenging. It won't eliminate the grief or the disruption. It won't replace the knowledge in your head or the relationships you've built.
 
 What it will do is give your project a fighting chance to survive and your successors a place to start.
 
