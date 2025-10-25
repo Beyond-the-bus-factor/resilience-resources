@@ -12,7 +12,17 @@ Work through each section honestly. For every area that is relevant to your situ
 2. **How long** would it take someone else to figure it out?
 3. **What would break** if those people disappeared tomorrow?
 
-Don't just count who *could* theoretically do something. Count who *actually knows how* and has the access to do it right now.
+Don't only count who *could* theoretically do something. Count who *actually knows how* and has the access to do it right now.
+
+## Scoring your risk
+
+For each area, assign a risk level:
+
+**🔴 Critical (Bus factor 1):** Only one person can handle this. If they leave, we're in crisis.
+
+**🟡 Vulnerable (Bus factor 2):** Two people can handle this, but it's risky. Losing one creates a crisis.
+
+**🟢 Resilient (Bus factor 3+):** Three or more people can handle this independently. We can survive losing someone.
 
 ## Technical systems
 
@@ -175,15 +185,7 @@ Don't just count who *could* theoretically do something. Count who *actually kno
 - Do we have admin access distributed across multiple people?
 - What would happen if we lost access to our primary communication channel?
 
-## Scoring your risk
 
-For each area, assign a risk level:
-
-**🔴 Critical (Bus factor 1):** Only one person can handle this. If they leave, we're in crisis.
-
-**🟡 Vulnerable (Bus factor 2):** Two people can handle this, but it's risky. Losing one creates a crisis.
-
-**🟢 Resilient (Bus factor 3+):** Three or more people can handle this independently. We can survive losing someone.
 
 ## What your audit tells you
 
