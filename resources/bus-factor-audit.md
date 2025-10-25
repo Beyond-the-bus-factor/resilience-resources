@@ -39,8 +39,15 @@ For each area, assign a risk level:
 
 **Questions to ask:**
 - Could someone else explain why we built it this way?
-- Is the 'why' documented, or just the 'what'?
+- Is the 'why' documented, or have you only covered the 'what'?
 - Are there parts of the code only one person has touched in the last year?
+
+#### Code analysis tools
+
+There have been several attempts to develop tooling to calculate a bus factor score based on Git history.
+
+- GitHub repos tagged with [bus-factor](https://github.com/topics/bus-factor)
+- CHAOSS project's ['contributor absence factor'](https://chaoss.community/?p=3944)
 
 ### Infrastructure and deployment
 
