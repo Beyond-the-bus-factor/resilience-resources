@@ -82,7 +82,7 @@ We'll go around the room. Just call out:
 
 I'll capture themes on the whiteboard.
 
-**Full audit framework:** See [resources/bus-factor-audit.md](resources/bus-factor-audit.md) for the complete version you can use back at your project.
+**Full audit framework:** See [resources/bus-factor-audit.md](./resources/bus-factor-audit.md) for the complete version you can use back at your project.
 
 ---
 
