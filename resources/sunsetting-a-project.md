@@ -73,6 +73,16 @@ In larger organisations, you may want to consider having a separate organisation
 
 You can also submit your code to the [Software Heritage](https://www.softwareheritage.org/) archive which preserves an archive of software for longevity - this is a great idea if you're hosting your code on your own infrastructure and you want to decommission that infrastructure, but still ensure the code is accessible in the future.
 
+## Sunsetting an organisation-owned project
+
+When you're closing down a project which has been managed by an organisation - whether that be a company, a foundation or something other, you might also have to decide how and when to withdraw organisation resources and establish new governance models.
+
+There is a super handy [flow chart](https://github.com/rcmcooperative/partner-template/blob/main/assets/RCM-sunsetting.drawio.pdf) created by the [RCM Cooperative](https://www.rcmcooperative.com/) which gives you a great head start in planning this process.
+
+If the community is quite large, it's likely that you'll need to go through some kind of consultative process, particularly if there is an existing governance model that needs changing, or no governance model at all.
+
+Here's how Mautic approached [spinning out from corporate ownership](https://speaking.ruthcheesley.co.uk/QYaM46/how-do-you-change-the-governance-model-of-an-established-open-source-project).
+
 ## References
 
 Thanks to these wonderful resources:
@@ -82,3 +92,7 @@ Thanks to these wonderful resources:
 - [GitHub blog on sunsetting projects](https://github.blog/open-source/maintainers/dos-and-donts-when-sunsetting-open-source-projects/)
 
 - [TODO guide on sunsetting projects](https://todogroup.org/resources/guides/shutting-down-an-open-source-project)
+
+- [RCM workflow for sunsetting projects](https://github.com/rcmcooperative/partner-template/blob/main/assets/RCM-sunsetting.drawio.pdf)
+
+- [Mautic's process for changing governance models](https://speaking.ruthcheesley.co.uk/QYaM46/how-do-you-change-the-governance-model-of-an-established-open-source-project)
