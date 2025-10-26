@@ -138,7 +138,7 @@ Your project's co-founder announces they're forking the project, claiming curren
 
 One person from each group shares one key insight in 20 seconds. What surprised you? What would you have no idea how to handle?
 
-**Full scenarios and succession templates:** See [resources/scenario-cards.md](resources/scenario-cards.md) and [resources/succession-planning-guide.md](resources/succession-planning-guide.md)
+**Full scenarios and succession templates:** See [resources/scenario-cards.md](../resources/scenario-cards.md) and [resources/succession-planning-guide.md](../resources/succession-planning-guide.md)
 
 ---
 
