@@ -25,15 +25,15 @@ Think about this now. We'll go around the room and each share briefly. This isn'
 ## Today's session flow
 
 **45 minutes total:**
-- Opening: Problem setting and introductions (5 min)
-- Section 1: Mapping your bus factor (10 min)
-- Section 2: Succession planning scenarios (10 min)
-- Section 3: Designing sustainable systems (15 min)
-- Wrap-up: Your commitment (5 min)
+- Opening: Problem setting and introductions
+- Section 1: Mapping your bus factor
+- Section 2: Succession planning scenarios 
+- Section 3: Designing sustainable systems
+- Wrap-up: Your commitment
 
 ---
 
-## Section 1: Mapping your bus factor (10 minutes)
+## Section 1: Mapping your bus factor
 
 ### Your task
 
@@ -80,13 +80,13 @@ We'll go around the room. Just call out:
 - One area where you're most vulnerable (your 🔴 critical risks)
 - Any patterns you noticed
 
-I'll capture themes on the whiteboard.
+We'll capture themes on the whiteboard.
 
 **Full audit framework:** See [resources/bus-factor-audit.md](../resources/bus-factor-audit.md) for the complete version you can use back at your project.
 
 ---
 
-## Section 2: Succession planning scenarios (10 minutes)
+## Section 2: Succession planning scenarios
 
 ### Small group exercise
 
@@ -96,74 +96,43 @@ Break into groups of 3-4 people. Your group will work through one crisis scenari
 1. Read your scenario
 2. Discuss: What would you actually do?
 3. Focus on the first 24-48 hours
-4. One person captures key insights
+4. What resources might help you in the moment, or to have prepared for this?
+5. One person captures key insights to share back (1 minute max)
 
-**Choose or be assigned one scenario:**
+**Choose one scenario:**
 
-### Scenario 1: The sudden disappearance
+See [resources/scenario-cards.md](../resources/scenario-cards.md)
 
-Your lead maintainer hasn't responded in 72 hours. Their phone goes to voicemail. You have a critical security vulnerability that needs patching and deploying immediately. Only the missing maintainer has ever done a production deployment end-to-end.
+### Share back
 
-**Questions:** What do you do in the first 24 hours? Who has authority to decide? How do you access deployment systems? What do you tell the community?
+One person from each group shares one key insight in 60 seconds. What surprised you? What would you have no idea how to handle?
 
-### Scenario 2: The burnout announcement
-
-Your second-most active contributor posts: 'I'm completely burnt out. I'm stepping away immediately. I know I'm leaving you in the lurch with the release next week, but I genuinely can't continue.'
-
-This person maintains 40% of your codebase, mentors new contributors, and handles community moderation. The release is already delayed with commitments to three major organisations.
-
-**Questions:** How do you respond in the next hour? Who picks up their work short-term? What about the deadline? How do you prevent this happening to someone else?
-
-### Scenario 3: The corporate acquisition
-
-Your biggest sponsor acquired the company employing your lead maintainer and two core team members. An IP clause potentially affects their contributions. Your lead says 'I might need to step back from leadership.'
-
-Community members are panicking on social media about being 'taken over by BigCorp.'
-
-**Questions:** What do you need to know legally? How do you protect independence? Who takes over leadership? How do you reassure the community?
-
-### Scenario 4: The security incident
-
-A critical security vulnerability is being actively exploited. You need to patch, release, and coordinate disclosure in 12 hours. Your security person is on holiday in a remote area with no internet for two weeks. They're the only one who knows your process, has GPG keys for signing, and maintains security research relationships.
-
-**Questions:** How do you handle the release? Who has access to signing keys? How do you coordinate disclosure? What changes prevent this situation?
-
-### Scenario 5: The hostile fork
-
-Your project's co-founder announces they're forking the project, claiming current leadership has 'lost sight of the original vision.' They've convinced three active contributors to join them. They're using a similar name, causing confusion.
-
-**Questions:** How do you respond publicly? What about contributors who are leaving? How do you handle community division? What governance failures led to this?
-
-### Share back (2 minutes)
-
-One person from each group shares one key insight in 20 seconds. What surprised you? What would you have no idea how to handle?
-
-**Full scenarios and succession templates:** See [resources/scenario-cards.md](../resources/scenario-cards.md) and [resources/succession-planning-guide.md](../resources/succession-planning-guide.md)
+**Full scenarios and succession planning guide:** See [resources/scenario-cards.md](../resources/scenario-cards.md) and [resources/succession-planning-guide.md](../resources/succession-planning-guide.md)
 
 ---
 
-## Section 3: Designing sustainable systems (15 minutes)
+## Section 3: Designing sustainable systems
 
 By now we've identified our vulnerabilities and practised crisis response. This section shifts from problems to solutions. 
 
 We're going to capture collective wisdom about what actually works. Fast-paced, everyone contributes, building on each other's ideas.
 
-### Round 1: Tactical practices (7 minutes)
+### Round 1: Tactical practices
 
 **The prompt:**
 
-**"What's ONE practice that prevents your project from depending on any single person?"**
+**'What's ONE practice that prevents your project from depending on any single person?'**
 
 **How this works:**
 
-**Minutes 1-5: Rapid-fire brainstorm**
+**Rapid-fire brainstorm**
 - Call out your answer - one practice, keep it concrete
 - I'll capture everything on the whiteboard
 - No discussion yet, just get ideas out
-- Build on what others say - "yes, and..."
+- Build on what others say - 'yes, and...'
 - Every answer is valid
 
-**Minutes 6-7: Quick discussion**
+**Quick discussion**
 - Which ones surprised you?
 - Which could you implement next week?
 - Any patterns emerging?
@@ -184,21 +153,21 @@ Don't overthink it - what works in your project?
 
 ---
 
-### Round 2: Cultural shifts (8 minutes)
+### Round 2: Cultural shifts
 
 **The prompt:**
 
-**"How do you make it NORMAL for people to step back before they burn out?"**
+**'How do you make it NORMAL for people to step back before they burn out?'**
 
 **How this works:**
 
-**Minutes 1-5: Thoughtful brainstorm**
+**Thoughtful brainstorm**
 - This is a harder question - take your time
 - Share what's worked, what you've seen work, or what you're trying
 - Stories welcome - sometimes an example helps
 - I'll capture themes and specific practices
 
-**Minutes 6-8: Deeper discussion**
+**Deeper discussion**
 - Let's discuss the 2-3 that resonate most
 - What makes these hard to implement?
 - What would it take to make this normal in your project?
@@ -212,7 +181,7 @@ Cultural practices and systemic changes like:
 - Celebrating people who step back (not treating it as failure)
 - 'Tending your garden leave' - paid time off for fun open source work (not what they work on day-to-day)
 - Regular capacity check-ins with team
-- Making "no" a complete sentence
+- Making 'no' a complete sentence
 - Forcing functions that require rotation
 
 This is about changing organisational culture, not just individual behaviour.
@@ -233,9 +202,9 @@ Create Issues tagged `github-universe-2025` with what emerges, or I'll do it imm
 
 ---
 
-## Wrap-up: Your commitment (5 minutes)
+## Wrap-up: Your commitment
 
-### Individual action planning (2 minutes)
+### Individual action planning
 
 Right now, open your phone or a piece of paper. Write down:
 
@@ -246,7 +215,7 @@ Make it concrete:
 - Not 'distribute access' but 'Add Sarah and Jamal to the 1Password team this week'
 - Not 'plan for succession' but 'Have succession conversation with potential co-lead by end of month'
 
-### Share around the room (3 minutes)
+### Share around the room
 
 We'll go around quickly. Each person shares their 30-day commitment in one sentence.
 
