@@ -2,11 +2,6 @@
 
 Practical tools for building projects and organisations that survive beyond any single person.
 
-## 🎯 Upcoming sessions
-
-### GitHub Universe 2025 - Community Day
-**27 October 2025, 10am PT**
-
 **[→ Access the session materials](sessions/github-universe-2025.md)**
 
 Attending the session? Scan this QR code to access everything on your device:
