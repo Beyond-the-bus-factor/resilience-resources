@@ -2,12 +2,6 @@
 
 Practical tools for building projects and organisations that survive beyond any single person.
 
-**[→ Access the session materials](sessions/github-universe-2025.md)**
-
-Attending the session? Scan this QR code to access everything on your device:
-
-![Session QR Code](sessions/images/github-universe-2025-qr.png)
-
 ## What's here
 
 This repository contains frameworks, checklists, and templates for reducing your bus factor - the uncomfortable reality that most projects are one key person away from crisis.
